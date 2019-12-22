@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'mainFont';
+    src: url("../fonts/coconnextarabic-light.ttf");
+    font-weight: normal;
+    font-style: normal; }
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'mainFont';
+    overflow-x: hidden;
+}
+#logo {
+   top: -20px;
+   text-align: center;
+}
+.main-container {
+    background: rgba(255,255,255,0.5);
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#login-and-signup{
+    font-size: 20px;
+    font-weight: 100;
+    display: block;
+    margin-top: 50px;
+    text-decoration: none;
+    margin-bottom: 70px;
+}
+.seperator {
+    color: #afafaf;
+}
+#login-and-signup a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #337e7f;
+    cursor: pointer;
+    margin-left: 5px;
+}
+@media screen and (max-width: 767px) and (min-width: 300px){
+    #login-and-signup {
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 300px){
+    #login-and-signup a {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 300px){
+    .main-container {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 300px){
+    #logo {
+        width: 200px !important;
+        margin-top: -80px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 300px){
+    body {
+        height: 100vh;
+    }
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+    .main-container {
+        width: 80%;
+    }
+}
+
+

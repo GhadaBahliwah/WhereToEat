@@ -1,0 +1,27 @@
+.navbar-default {
+    min-height: 65px;
+    background-color: rgba(11, 148, 150, 0.85);
+    padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    direction: rtl;
+    z-index: 14;
+}
+.logo-header{
+    margin-right: 350px;
+}
+@media screen and (max-width: 767px) and (min-width: 300px){
+    .logo-header{
+        margin-right: 20px;
+    }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+    .logo-header{
+        margin-right: 50px;
+    }
+}

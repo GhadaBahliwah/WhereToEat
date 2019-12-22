@@ -1,0 +1,105 @@
+.restaurant-name {
+    font-size: 40px;
+    background: rgba(255,255,255,0.85);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 40px;
+    position: absolute;
+    top: 65px;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    z-index: 10;
+}
+.map {
+    z-index: 9;
+    text-align: center;
+}
+.restaurant-name a,
+.restaurant-name a:link,
+.restaurant-name a:visited{
+    text-decoration: none;
+    color: #0b9496;
+    cursor: pointer;
+
+
+}
+.restaurant-name p{
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    z-index: 10;
+}
+.restaurant-category {
+    color:#a2a2a2;
+    font-size: 16pt;
+}
+
+.rest-details {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#google-maps-button {
+    text-decoration: none;
+    display: block;
+    background: #fff;
+    font-size: 19px;
+    padding: 11px;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #838383;
+    cursor: pointer;
+    height: 50px;
+    position: relative;
+    top: 350px;
+    border-radius: 30px;
+    z-index: 19;
+    text-align: center;
+}
+.space {
+    position: relative;
+    top: 300px;
+    height: 230px;
+    background-color: transparent
+}
+@media screen and (max-width: 767px) and (min-width: 300px){
+    .restaurant-name {
+        font-size: 30px;
+        width: 100%;
+    }
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+    .map-section {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 300px){
+    .map-section {
+        width: 100% !important;
+
+    }
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+    .map-section {
+        width: 80% !important;
+    }
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+    .restaurant-name {
+        font-size: 30px;
+        width: 80%;
+    }
+}
